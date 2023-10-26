@@ -12,6 +12,9 @@ export class AccountComponent {
 	valid : boolean = true
 account: any;
 email: any;
+password: any;
+city: any;
+phone: any;
 
 	submitForm () {
 
