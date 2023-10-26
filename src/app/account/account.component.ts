@@ -10,11 +10,11 @@ export class AccountComponent {
 	firstName: string | undefined;
 	
 	valid : boolean = true
-account: any;
-email: any;
-password: any;
-city: any;
-phone: any;
+	account: any;
+	email: string | undefined;
+	password: string | undefined;
+	city: any;
+	phone: any;
 
 	submitForm () {
 
