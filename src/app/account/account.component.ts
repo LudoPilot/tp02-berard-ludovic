@@ -10,8 +10,10 @@ export class AccountComponent {
 	firstName: string | undefined;
 	
 	valid : boolean = true
+account: any;
+email: any;
 
-	submitForm() {
+	submitForm () {
 
 	}
 
